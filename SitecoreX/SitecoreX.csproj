@@ -97,6 +97,9 @@
     <Content Include="packages.config" />
     <Content Include="App_Config\Include\SitecoreX\Sites.config" />
     <None Include="App_Config\Include\SitecoreX\Unicorn.config" />
+    <Content Include="App_Data\Unicorn\Launchpad\SitecoreX.yml" />
+    <Content Include="App_Data\Unicorn\Launchpad\SitecoreX\DependencyInjectionConfigurati.yml" />
+    <Content Include="App_Data\Unicorn\Launchpad\SitecoreX\ShowConfig.yml" />
     <None Include="Properties\PublishProfiles\Publish to local.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -112,7 +115,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\Unicorn\" />
+    <Folder Include="App_Data\Unicorn\Layouts\" />
+    <Folder Include="App_Data\Unicorn\Templates\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

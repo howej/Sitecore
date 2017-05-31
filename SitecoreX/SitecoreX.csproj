@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="App_Config\Include\SitecoreX\Sites.config" />
+    <Content Include="App_Config\Include\SitecoreX\settings.config" />
     <None Include="App_Config\Include\SitecoreX\Unicorn.config" />
     <Content Include="App_Data\Unicorn\Launchpad\SitecoreX.yml" />
     <Content Include="App_Data\Unicorn\Launchpad\SitecoreX\DependencyInjectionConfigurati.yml" />

@@ -1,0 +1,14 @@
+﻿---
+ID: "625516f5-23c8-47d4-a8f3-982efcd93792"
+Parent: "9628ac1b-0deb-4567-9a4a-e53a69d532ef"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/SitecoreX/Infrastructure
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170615T062755Z

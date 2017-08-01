@@ -66,6 +66,7 @@
     <Content Include="App_Data\Unicorn\Launchpad\SitecoreX.yml" />
     <Content Include="App_Data\Unicorn\Launchpad\SitecoreX\DependencyInjectionConfigurati.yml" />
     <Content Include="App_Data\Unicorn\Launchpad\SitecoreX\ShowConfig.yml" />
+    <Content Include="App_Data\Unicorn\Launchpad\SitecoreX\Bing.yml" />
     <None Include="Properties\PublishProfiles\Publish to local.pubxml" />
   </ItemGroup>
   <ItemGroup>

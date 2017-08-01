@@ -60,6 +60,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\SitecoreX\Launchpad\Unicorn.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Unicorn\Launchpad\SitecoreX.yml" />
+    <Content Include="App_Data\Unicorn\Launchpad\SitecoreX\DependencyInjectionConfigurati.yml" />
+    <Content Include="App_Data\Unicorn\Launchpad\SitecoreX\ShowConfig.yml" />
     <None Include="Properties\PublishProfiles\Publish to local.pubxml" />
   </ItemGroup>
   <ItemGroup>

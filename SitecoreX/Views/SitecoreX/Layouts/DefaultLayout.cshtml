@@ -1,0 +1,30 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Extensions
+@* @using Sitecore.Mvc.Analytics.Extensions *@
+@model RenderingModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    @* @Html.Sitecore().VisitorIdentification() *@
+</head>
+<body>
+    <div>
+        <h1 class="contentTitle">
+            @using (Html.EditFrame(Model.PageItem.ID.ToString(), "", "Edit Title", "Please enter a valid title.", "", null))
+            {
+                @Model.PageItem["title"]
+            }
+        </h1>
+        <div class="contentDescription">
+            @Html.Sitecore().Field("text")
+        </div>
+    </div>
+</body>
+</html>

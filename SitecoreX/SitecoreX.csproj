@@ -127,9 +127,6 @@
     <None Include="App_Config\Include\SitecoreX\Unicorn.config">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="App_Data\Unicorn\Launchpad\SitecoreX.yml" />
-    <Content Include="App_Data\Unicorn\Launchpad\SitecoreX\DependencyInjectionConfigurati.yml" />
-    <Content Include="App_Data\Unicorn\Launchpad\SitecoreX\ShowConfig.yml" />
     <Content Include="App_Data\Unicorn\Templates\SitecoreX\Infrastructure\HtmlMetaTags\Meta-Tags.yml" />
     <Content Include="App_Data\Unicorn\Templates\SitecoreX\Infrastructure\HtmlMetaTags\Meta-Tags\MetaDescription.yml" />
     <Content Include="App_Data\Unicorn\Templates\SitecoreX\Infrastructure\HtmlMetaTags\Meta-Tags\MetaKeywords.yml" />

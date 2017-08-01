@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreX", "SitecoreX\SitecoreX.csproj", "{E85E80EB-117C-4349-81B7-993D6E6B650A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreX.DependencyInjection", "SitecoreX.DependencyInjection\SitecoreX.DependencyInjection.csproj", "{3B5DCB19-2715-42BE-9AE4-5B1B33EFEBBF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreX.ExperienceEditor", "SitecoreX.ExperienceEditor\SitecoreX.ExperienceEditor.csproj", "{F080D722-CFA7-42FB-9260-255FAB88C898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreX.Launchpad", "SitecoreX.Launchpad\SitecoreX.Launchpad.csproj", "{01E9FC98-21E9-4293-A845-C1594240A7F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F080D722-CFA7-42FB-9260-255FAB88C898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F080D722-CFA7-42FB-9260-255FAB88C898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F080D722-CFA7-42FB-9260-255FAB88C898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E9FC98-21E9-4293-A845-C1594240A7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E9FC98-21E9-4293-A845-C1594240A7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E9FC98-21E9-4293-A845-C1594240A7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E9FC98-21E9-4293-A845-C1594240A7F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

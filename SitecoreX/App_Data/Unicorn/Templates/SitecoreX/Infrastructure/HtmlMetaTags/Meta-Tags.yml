@@ -1,0 +1,14 @@
+﻿---
+ID: "7e5b708f-c174-4b6e-bf53-47c617fd279e"
+Parent: "f9d816e7-4186-43d2-9fc0-ae8d93165d56"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: "/sitecore/templates/SitecoreX/Infrastructure/HtmlMetaTags/Meta-Tags"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170615T063826Z

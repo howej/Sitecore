@@ -1,92 +1,95 @@
 ﻿---
-ID: "8273dd40-e649-4d72-88d3-dc0b2c64e7d4"
-Parent: "aea50690-c990-483e-bb91-6e3afa1d231d"
-Template: "d4c7f5f9-8977-4e0c-b6ce-28ae8e0753e2"
-Path: /sitecore/client/Applications/Launchpad/PageSettings/Buttons/SitecoreX/ShowConfig
+ID: "453275f4-5261-4b1b-bc32-c9c1304a5354"
+Parent: "b4c2eebc-e284-40af-b91d-10b2d8ddbb6d"
+Template: "8f3d8f9b-2d76-4ace-803f-35415d2b230a"
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/SitecoreX/Meta Tags
 DB: core
 SharedFields:
-- ID: "044e3fdb-22ae-4e6c-b50e-2abdfbabd338"
-  Hint: Link
-  Value: /sitecore/admin/ShowConfig.aspx
+- ID: "8bb9a5e3-cae8-49c6-b830-258a51d970c9"
+  Hint: ID
+  Value: MetaTagsChunk
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
-- ID: "d25b56d4-23b6-4462-be25-b6a6d7f38e13"
-  Hint: Icon
-  Value: Applications/32x32/documents_gear.png
-- ID: "dc0c067b-8d1a-4aca-9852-e6b29139a63d"
-  Hint: OpenNewTab
-  Type: Checkbox
-  Value: 1
-- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
-  Hint: __Security
-  Value: 
+  Value: 37
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{B8CC30CD-725A-4353-9EA6-CD9832CB3996}"
+          par="Id=Chunk"
+          uid="{4DEE4C60-AC6A-4D6E-91E5-A0E1E980414B}" />
+      </d>
+    </r>
 Languages:
 - Language: da
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: AppCenter
+    Value: Egenskaber
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170407T125803Z
+      Value: 20170407T125706Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\admin
-    - ID: "aa4a4643-5bfc-45a7-b9d9-5183a5211d99"
-      Hint: Text
-      Value: App Center
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Aktiver
 - Language: "de-DE"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: AppCenter
+    Value: Fähigkeiten
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170407T130803Z
+      Value: 20170407T130639Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\admin
-    - ID: "aa4a4643-5bfc-45a7-b9d9-5183a5211d99"
-      Hint: Text
-      Value: App Center
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Aktivieren
 - Language: en
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20140702T100144
+      Value: 20070313T122724
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\admin
-    - ID: "aa4a4643-5bfc-45a7-b9d9-5183a5211d99"
-      Hint: Text
-      Value: Show Config
+        sitecore\Admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Meta Tags
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: App Center
+    Value: 特性
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170407T131423Z
+      Value: 20170407T131321Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\admin
-    - ID: "aa4a4643-5bfc-45a7-b9d9-5183a5211d99"
-      Hint: Text
-      Value: App Center
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: 機能

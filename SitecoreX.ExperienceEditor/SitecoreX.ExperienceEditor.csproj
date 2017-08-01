@@ -67,7 +67,6 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="sitecore modules\SitecoreX\ExperienceEditor\EditMetaTagsButton\EditMetaTagsButton.js" />
-    <Content Include="sitecore\shell\Applications\Content Manager\FieldEditor.aspx" />
     <Content Include="App_Data\Unicorn\WebEdit\SitecoreX.yml" />
     <Content Include="App_Data\Unicorn\WebEdit\SitecoreX\Meta Tags.yml" />
     <Content Include="App_Data\Unicorn\WebEdit\SitecoreX\Meta Tags\Edit Meta Tags.yml" />
